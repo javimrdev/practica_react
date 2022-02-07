@@ -27,8 +27,8 @@ export const AppRouter: React.FC = () => {
                                     </AuthWrapper>} />
                                 <Route path={switchRoutes.login} element={<LoginScene />} />
                                 <Route path={switchRoutes.employeeDetail} element={<AuthWrapper><EmployeeDetailScene /></AuthWrapper>} />
-                                <Route path={switchRoutes.rickmortyList} element={<RickMortyCharacterListScene />} />
-                                <Route path={switchRoutes.characterDetail} element={<RickMortyCharacterDetailScene />} />
+                                <Route path={switchRoutes.rickmortyList} element={<AuthWrapper><RickMortyCharacterListScene /></AuthWrapper>} />
+                                <Route path={switchRoutes.characterDetail} element={<AuthWrapper><RickMortyCharacterDetailScene /></AuthWrapper>} />
                             </Route>
                         </Routes>
                     </HashRouter>
