@@ -61,9 +61,6 @@ export const HeaderComponent: React.FC = () => {
                             <MenuItem key={'Employees'} onClick={() => navigate(switchRoutes.root)}>
                                 <Typography textAlign="center">{'Employees'}</Typography>
                             </MenuItem>
-                            <MenuItem key={'Login'} onClick={() => navigate(switchRoutes.login)}>
-                                <Typography textAlign="center">{'Login'}</Typography>
-                            </MenuItem>
                             <MenuItem key={'RickMortiList'} onClick={() => navigate(switchRoutes.rickmortyList)}>
                                 <Typography textAlign="center">{'Rick & Morty list'}</Typography>
                             </MenuItem>
@@ -80,9 +77,6 @@ export const HeaderComponent: React.FC = () => {
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         <MenuItem key={'Employees'} onClick={() => navigate(switchRoutes.root)}>
                             <Typography textAlign="center">{'Employees'}</Typography>
-                        </MenuItem>
-                        <MenuItem key={'Login'} onClick={() => navigate(switchRoutes.login)}>
-                            <Typography textAlign="center">{'Login'}</Typography>
                         </MenuItem>
                         <MenuItem key={'RickMortyList'} onClick={() => navigate(switchRoutes.rickmortyList)}>
                             <Typography textAlign="center">{'Rick & Morty Characters'}</Typography>
