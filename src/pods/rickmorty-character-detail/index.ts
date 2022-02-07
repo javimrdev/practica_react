@@ -1,0 +1,1 @@
+export * from 'pods/rickmorty-character-detail/rickmorty-character-detail.container'

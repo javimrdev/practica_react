@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "jsxImportSource": "@emotion/react",
+    "jsx": "react-jsx",
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "pods": [
+        "pods"
+      ],
+      "commons": [
+        "commons"
+      ],
+      "config": [
+        "config"
+      ],
+      "core": [
+        "core"
+      ],
+      "router": [
+        "router"
+      ],
+      "scenes": [
+        "scenes"
+      ],
+      "layout": [
+        "layout"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
